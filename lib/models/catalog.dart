@@ -1,5 +1,18 @@
+class CatalogModel {
+  static final items = [
+    Item(
+        id: 1,
+        name: 'iPhone 12 Pro',
+        description: 'Apple iPhone 12th Generation',
+        price: 999,
+        color: '#33505a',
+        image:
+            'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-graphite-hero?wid=940&hei=1112&fmt=png-alpha&.v=1604021660000')
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String description;
   final num price;
